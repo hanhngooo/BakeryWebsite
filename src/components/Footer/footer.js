@@ -13,22 +13,27 @@ function Footer() {
       <div className="footer__contact">
         <div className="footer__contact--item">
           <a
-            className="footer__contact--link"
+            className="footer__contact--icon"
             href="https://www.facebook.com/profile.php?id=100008428893615"
           >
             <GrFacebook />
           </a>
         </div>
         <div className="footer__contact--item">
-          <FaPhoneAlt />
-          <ul>
-            <li> 0778770284 (Chị Trang)</li>
-            <li>0907169569 (chị Trân)</li>
-          </ul>
+          <div className="footer__contact--item--phone">
+            {/* <div className="footer__contact--icon"> */}
+
+            <p className="footer__contact--paragraph">
+              <FaPhoneAlt />{" "}
+              <span>0778770284 (Chị Trang) - 0907169569 (chị Trân)</span>
+            </p>
+            {/* </div> */}
+            <div className="footer__contact--number"></div>
+          </div>
         </div>
       </div>
-      <div class="footer__copyright">
-        <p class="footer__copyright--paragraph">
+      <div className="footer__copyright">
+        <p className="footer__copyright--paragraph">
           &copy; Copyright. Bếp Bánh Lekker. All Rights Reserved
         </p>
       </div>
