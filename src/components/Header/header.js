@@ -13,8 +13,6 @@ function Header() {
           <hr className="header__line-2" />
         </div>
       </Parallax>
-
-      <div style={{ height: "100vh" }}>abc</div>
     </div>
   );
 }
