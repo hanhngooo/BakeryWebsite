@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.header__parallax {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__line-1 {
+  width: 100px;
+  height: 2px;
+  top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  position: absolute;
+}
+.header__line-2 {
+  width: 100px;
+  height: 2px;
+  bottom: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  position: absolute;
+}
+.header__logo img {
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
