@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div className="aboutUs">
       <div className="aboutUs__left">
-        <img src={require("../../assets/banner-2.jpg")} />
+        <img src={require("../../assets/banner-2.jpg")} alt="logo" />
       </div>
 
       <div className="aboutUs__right">
