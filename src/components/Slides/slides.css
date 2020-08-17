@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 30px 0;
+  padding-bottom: 30px;
+  margin: 60px 0;
 }
 .slideShow__left {
   width: 50%;
@@ -13,10 +14,11 @@
 }
 .slideShow__right {
   width: 50%;
+  height: 100%;
   box-shadow: 0 10px 20px rgba(156, 156, 156, 0.8);
   opacity: 0.9;
 }
 .custom-img {
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: scale-down;
 }
