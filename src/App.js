@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
-import HomePage from "./pages/HomePage";
-import ProductsPage from "./pages/ProductsPage";
+import HomePage from "./pages/HomePage/HomePage";
+import ProductsPage from "./pages/ProductsPage/ProductsPage";
 
 function App() {
   return (
