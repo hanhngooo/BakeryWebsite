@@ -50,7 +50,7 @@
   /* align-items: center; */
 }
 
-.products__card {
+/* .products__card {
   width: 20%;
   padding: 10px;
   overflow: hidden;
@@ -98,7 +98,7 @@
   .products__card--title {
     font-size: 14px;
   }
-}
+} */
 
 .button {
   width: 170px;

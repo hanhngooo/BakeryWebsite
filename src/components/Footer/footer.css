@@ -37,7 +37,7 @@
 .footer__contact--paragraph {
   font-size: 22px;
   font-style: italic;
-  color: rgb(25, 103, 248);
+  color: rgb(0, 27, 145);
 }
 .footer__copyright--paragraph {
   color: gray;
@@ -45,11 +45,21 @@
 }
 
 @media (max-width: 600px) {
+  .footer__header--logo img {
+    height: 150px;
+  }
+
   .footer__contact--paragraph {
     font-size: 18px;
   }
   .footer__copyright--paragraph {
-    font-size: 12px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__contact--paragraph {
+    font-size: 14px;
   }
 }
 .footer__contact--phoneicon {

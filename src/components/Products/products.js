@@ -1,7 +1,9 @@
 import React from "react";
 import "./products.css";
 import { Parallax } from "react-parallax";
-import { Card } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
+import ProductCard from "./productCard";
+import productContents from "./productContents.js";
 
 function Products() {
   return (
@@ -15,65 +17,9 @@ function Products() {
       </Parallax>
       <div className="products__list">
         <div className="products__cards">
-          <Card className="products__card">
-            <div className="products__card--imgBox">
-              <Card.Img
-                className="products__card--img"
-                variant="top"
-                src={require("../../assets/type-thapcam.jpeg")}
-              />
-            </div>
-            <Card.Body>
-              <Card.Title className="products__card--title">
-                Bánh nướng thập cẩm{" "}
-              </Card.Title>
-            </Card.Body>
-          </Card>
-
-          <Card className="products__card">
-            <div className="products__card--imgBox">
-              <Card.Img
-                className="products__card--img"
-                variant="top"
-                src={require("../../assets/type-hiendai.jpeg")}
-              />
-            </div>
-            <Card.Body>
-              <Card.Title className="products__card--title">
-                Bánh trung thu hiện đại
-              </Card.Title>
-            </Card.Body>
-          </Card>
-
-          <Card className="products__card">
-            <div className="products__card--imgBox">
-              <Card.Img
-                className="products__card--img"
-                variant="top"
-                src={require("../../assets/type-daudo.jpeg")}
-              />
-            </div>
-            <Card.Body>
-              <Card.Title className="products__card--title">
-                Bánh nướng đậu đỏ táo đỏ{" "}
-              </Card.Title>
-            </Card.Body>
-          </Card>
-
-          <Card className="products__card">
-            <div className="products__card--imgBox">
-              <Card.Img
-                className="products__card--img"
-                variant="top"
-                src={require("../../assets/type-dauxanh.jpeg")}
-              />
-            </div>
-            <Card.Body>
-              <Card.Title className="products__card--title">
-                Bánh nướng đậu xanh{" "}
-              </Card.Title>
-            </Card.Body>
-          </Card>
+          {productContents.top.map((product) => {
+            return <ProductCard name={product.name} image={product.image} />;
+          })}
         </div>
 
         <button className="button">Xem chi tiết</button>

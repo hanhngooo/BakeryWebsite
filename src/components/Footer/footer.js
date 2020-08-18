@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { GrFacebook } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
+import { GiHouse } from "react-icons/gi";
 function Footer() {
   return (
     <div className="footer">
@@ -14,17 +15,24 @@ function Footer() {
         <div className="footer__contact--item">
           <div className="footer__contact--item--phone">
             <p className="footer__contact--paragraph">Liên hệ đặt bánh qua: </p>
+            <br />
+            <p className="footer__contact--paragraph">
+              <span className="footer__contact--houseicon">
+                <GiHouse />
+              </span>{" "}
+              222 Thái Phiên, P.8, Q.11, TP.HCM
+            </p>
             <p className="footer__contact--paragraph">
               <span className="footer__contact--phoneicon">
-                <FaPhoneAlt />
+                <FaPhoneAlt />{" "}
               </span>{" "}
               0778770284 (Chị Trang){" "}
             </p>
             <p className="footer__contact--paragraph">
               <span className="footer__contact--phoneicon">
                 <FaPhoneAlt />{" "}
-              </span>
-              0907169569 (chị Trân){" "}
+              </span>{" "}
+              0907169569 (Chị Trân){" "}
             </p>
 
             <div className="footer__contact--number"></div>
