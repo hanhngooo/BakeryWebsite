@@ -13,42 +13,76 @@
   width: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .footer__contact--item {
   margin: 5px 0;
 }
-.footer__contact--item:hover {
-  color: chocolate;
-}
+
 .footer__contact--icon {
   color: rgb(25, 103, 248);
-  font-size: 40px;
+  font-size: 60px;
+  transition: all 0.4s;
 }
 .footer__contact--icon:hover {
   color: chocolate;
 }
 .footer__contact--item--phone {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .footer__contact--paragraph {
   font-size: 22px;
   font-style: italic;
-  color: rgb(48, 48, 48);
+  color: rgb(25, 103, 248);
 }
 .footer__copyright--paragraph {
   color: gray;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
   .footer__contact--paragraph {
-    font-size: 13px;
+    font-size: 18px;
   }
   .footer__copyright--paragraph {
     font-size: 12px;
+  }
+}
+.footer__contact--phoneicon {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
   }
 }
