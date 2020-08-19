@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer__contact--item">
           <div className="footer__contact--item--phone">
             <p className="footer__contact--paragraph">Liên hệ đặt bánh qua: </p>
-            <br />
+
             <p className="footer__contact--paragraph">
               <span className="footer__contact--houseicon">
                 <GiHouse />
@@ -34,7 +34,6 @@ function Footer() {
               </span>{" "}
               0907169569 (Chị Trân){" "}
             </p>
-
             <div className="footer__contact--number"></div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .products__noteWrap {
-  margin: 30px 0;
+  margin-top: 20px;
 }
 .products__note {
   display: flex;
@@ -8,7 +8,6 @@
   margin: 20px 0;
 }
 .products__noteItem {
-  /* width: 50%; */
   margin-left: 20px;
 }
 
@@ -20,4 +19,35 @@
   width: 20vw;
   margin: 0;
   padding: 0;
+}
+@media (max-width: 800px) {
+  .products__noteWrap {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .products__noteWrap {
+    font-size: 8px;
+  }
+}
+@media (max-width: 500px) {
+  .products__note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .products__noteWrap {
+    font-size: 12px;
+  }
+  .products__noteItem {
+    width: 100%;
+    margin-left: 0;
+  }
+  .products__noteItem--core {
+    width: 100%;
+    margin: 0;
+  }
 }

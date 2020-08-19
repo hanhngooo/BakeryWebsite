@@ -31,6 +31,9 @@
   .products__title {
     font-size: 35px;
   }
+  .products__parallax {
+    height: 300px;
+  }
 }
 @media (max-width: 730px) {
   .products__title {
@@ -46,13 +49,21 @@
   .products__title {
     font-size: 20px;
   }
+  .products__parallax {
+    height: 260px;
+  }
+
+  .products__list {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .products__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 30px 0;
   height: auto;
   /* align-items: center; */
 }

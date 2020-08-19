@@ -15,7 +15,7 @@ function ProductsPage() {
         </div>
       </Parallax>
       <div className="products__noteWrap">
-        <h4>Thông tin giá bánh</h4>
+        <h5>Thông tin giá bánh</h5>
         <div className="products__note">
           <div className="products__noteItem">
             <div className="products__noteItem--price">

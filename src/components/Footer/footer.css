@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(255, 254, 210);
+  background-color: rgb(255, 255, 232);
   margin: 50px 0;
   padding: 30px 0;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .footer__header--logo img {
-  height: 200px;
+  height: 190px;
 }
 .footer__contact {
   width: 500px;

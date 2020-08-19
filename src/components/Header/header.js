@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 function Header() {
   return (
     <div className="header">
-      <Parallax bgImage={require("../../assets/banner-1.jpg")} strength={300}>
+      <Parallax bgImage={require("../../assets/banner-1.jpg")} strength={200}>
         <div className="header__parallax">
           <hr className="header__line-1" />
           <div className="header__logo">

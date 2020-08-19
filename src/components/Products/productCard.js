@@ -13,7 +13,12 @@ function ProductCard(props) {
         />
       </div>
       <Card.Body>
-        <Card.Title className="products__card--title">{props.name} </Card.Title>
+        <Card.Title
+          className="products__card--title"
+          style={{ marginBottom: "0" }}
+        >
+          {props.name}{" "}
+        </Card.Title>
       </Card.Body>
     </Card>
   );

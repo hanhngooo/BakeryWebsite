@@ -5,7 +5,7 @@
 }
 
 .header__parallax {
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -32,9 +32,37 @@
   position: absolute;
 }
 .header__logo img {
-  height: 300px;
+  height: 270px;
   left: 50%;
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+  .header__parallax {
+    height: 300px;
+  }
+
+  .header__logo img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__parallax {
+    height: 260px;
+  }
+  .header__line-1 {
+    width: 60px;
+    height: 1px;
+  }
+  .header__line-2 {
+    width: 60px;
+    height: 1px;
+  }
+
+  .header__logo img {
+    height: 120px;
+  }
 }
