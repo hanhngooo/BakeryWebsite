@@ -1,7 +1,7 @@
 import React from "react";
 import "./products.css";
 import { Parallax } from "react-parallax";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import ProductCard from "./productCard";
 import productContents from "./productContents.js";
 
@@ -21,9 +21,9 @@ function Products() {
             return <ProductCard name={product.name} image={product.image} />;
           })}
         </div>
-        <Link to="/sanpham">
+        <a href="/sanpham">
           <button className="button">Xem chi tiết</button>
-        </Link>
+        </a>
       </div>
     </div>
   );

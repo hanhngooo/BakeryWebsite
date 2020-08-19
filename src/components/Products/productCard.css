@@ -19,7 +19,7 @@
 .products__card--img {
   transition: all 0.5s ease;
   transform-origin: center center;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .products__card--img:hover {

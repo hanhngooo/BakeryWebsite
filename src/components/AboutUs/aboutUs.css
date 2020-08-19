@@ -37,12 +37,14 @@
 }
 
 .mainHeading {
+  font-family: "Dancing Script", cursive;
   font-size: 40px;
   font-weight: 300;
   color: rgb(48, 48, 48);
   margin-bottom: 20px;
 }
 .subHeading {
+  font-family: "Nunito", sans-serif;
   font-size: 25px;
   font-weight: 300;
   color: rgb(223, 165, 15);
