@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 .products__list {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -37,17 +37,17 @@
 }
 @media (max-width: 730px) {
   .products__title {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 @media (max-width: 600px) {
   .products__title {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 @media (max-width: 520px) {
   .products__title {
-    font-size: 20px;
+    font-size: 25px;
   }
   .products__parallax {
     height: 260px;
@@ -66,7 +66,8 @@
   flex-direction: row;
   flex-flow: wrap;
   height: auto;
-  align-items: left;
+  /* justify-content: space-evenly; */
+  align-items: center;
 }
 
 .button {

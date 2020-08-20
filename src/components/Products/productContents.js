@@ -74,5 +74,13 @@ const productContents = {
       description: "Bánh dẻo nhiều màu tùy chọn.",
     },
   ],
+  boxes: [
+    { name: "Hộp con thỏ 4 bánh", image: require("../../assets/box-1.jpg") },
+    {
+      name: "Hộp họa tiết 4 bánh",
+      image: require("../../assets/box-2.jpg"),
+    },
+    { name: "Hộp con thỏ 2 bánh", image: require("../../assets/box-3.jpg") },
+  ],
 };
 export default productContents;
