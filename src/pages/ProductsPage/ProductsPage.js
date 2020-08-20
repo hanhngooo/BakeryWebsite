@@ -4,6 +4,7 @@ import "./ProductsPage.css";
 import Footer from "../../components/Footer/footer";
 import ProductCard from "../../components/Products/productCard";
 import productContents from "../../components/Products/productContents";
+
 function ProductsPage() {
   return (
     <div className="products">
@@ -93,7 +94,13 @@ function ProductsPage() {
       <div className="products__list">
         <div className="products__cards">
           {productContents.all.map((product) => {
-            return <ProductCard name={product.name} image={product.image} />;
+            return (
+              <ProductCard
+                name={product.name}
+                image={product.image}
+                description={product.description}
+              />
+            );
           })}
         </div>{" "}
       </div>

@@ -11,6 +11,7 @@
 
 .products__card--title {
   font-size: 16px;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .products__card--imgBox {
@@ -26,6 +27,7 @@
 
 .products__card--img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 @media (max-width: 1140px) {
