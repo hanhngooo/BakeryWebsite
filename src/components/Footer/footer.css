@@ -1,13 +1,28 @@
 .footer {
-  background-color: rgb(255, 255, 232);
-  margin: 50px 0;
-  padding: 30px 0;
+  /* margin-top: 30px; */
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.footer__banner {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  opacity: 0.8;
+}
+.footer__content {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
 }
 .footer__header--logo img {
-  height: 190px;
+  height: 220px;
 }
 .footer__contact {
   width: 500px;
@@ -21,7 +36,7 @@
 }
 
 .footer__contact--icon {
-  color: rgb(25, 103, 248);
+  color: rgb(233, 233, 233);
   font-size: 60px;
   transition: all 0.4s;
 }
@@ -37,16 +52,17 @@
 .footer__contact--paragraph {
   font-size: 22px;
   font-style: italic;
-  color: rgb(0, 27, 145);
+  color: rgb(233, 233, 233);
 }
 .footer__copyright--paragraph {
-  color: gray;
+  font-size: 12px;
+  color: rgb(175, 175, 175);
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .footer__header--logo img {
-    height: 150px;
+    height: 160px;
   }
 
   .footer__contact--paragraph {
@@ -56,10 +72,79 @@
     font-size: 10px;
   }
 }
+@media (max-width: 800px) {
+  .footer__banner {
+    text-align: center;
+    height: 100vh;
+    opacity: 0.8;
+  }
+  .footer__header--logo img {
+    height: 130px;
+  }
 
-@media (max-width: 400px) {
   .footer__contact--paragraph {
     font-size: 14px;
+  }
+  .footer__copyright--paragraph {
+    font-size: 10px;
+  }
+  .footer__contact--icon {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__header--logo img {
+    height: 100px;
+    margin-bottom: 0;
+  }
+  .footer__banner {
+    text-align: center;
+    height: 60vh;
+    opacity: 0.8;
+  }
+  .footer__contact {
+    margin-top: 0px;
+  }
+  .footer__contact--paragraph {
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .footer__copyright--paragraph {
+    font-size: 10px;
+  }
+  .footer__contact--icon {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  .footer__header--logo img {
+    height: 90px;
+  }
+  .footer__banner {
+    text-align: center;
+    height: 45vh;
+    opacity: 0.8;
+  }
+  .footer__contact--paragraph {
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .footer__contact--icon {
+    font-size: 20px;
+  }
+
+  .footer__copyright--paragraph {
+    font-size: 9px;
   }
 }
 .footer__contact--phoneicon {

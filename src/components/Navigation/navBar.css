@@ -1,0 +1,9 @@
+.navbar-nav .nav-item .nav-link:hover {
+  color: chocolate;
+}
+
+@media (max-width: 500px) {
+  .nav__contact {
+    display: none;
+  }
+}

@@ -4,6 +4,7 @@ const productContents = {
       name: "Bánh nướng thập cẩm",
       image: require("../../assets/type-thapcam.jpeg"),
     },
+
     {
       name: "Bánh nướng đậu đỏ táo đỏ",
       image: require("../../assets/type-daudo.jpeg"),
@@ -22,6 +23,10 @@ const productContents = {
     {
       name: "Bánh trung thu hiện đại",
       image: require("../../assets/type-hiendai.jpeg"),
+    },
+    {
+      name: "Bánh trung thu ngũ sắc",
+      image: require("../../assets/type-ngusac.jpeg"),
     },
     {
       name: "Bánh nướng thập cẩm",

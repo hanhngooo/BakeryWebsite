@@ -1,18 +1,20 @@
 import React from "react";
 import "./header.css";
-import { Parallax } from "react-parallax";
 function Header() {
   return (
     <div className="header">
-      <Parallax bgImage={require("../../assets/banner-1.jpg")} strength={200}>
-        <div className="header__parallax">
-          <hr className="header__line-1" />
-          <div className="header__logo">
-            <img src={require("../../assets/logo.png")} alt="logo" />
-          </div>
-          <hr className="header__line-2" />
+      <img
+        className="header__banner"
+        src={require("../../assets/banner-1.jpg")}
+        alt="header"
+      />
+      <div className="header__items">
+        <hr className="header__line-1" />
+        <div className="header__logo">
+          <img src={require("../../assets/logo.png")} alt="logo" />
         </div>
-      </Parallax>
+        <hr className="header__line-2" />
+      </div>
     </div>
   );
 }
