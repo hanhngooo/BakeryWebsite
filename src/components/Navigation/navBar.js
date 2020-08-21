@@ -1,5 +1,6 @@
 import React from "react";
 import "./navBar.css";
+import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -8,8 +9,8 @@ function NavBar() {
     <Navbar
       bg="light"
       expand="lg"
-      sticky="top"
-      style={{ color: "rgb(100, 100, 100)" }}
+      fixed="top"
+      style={{ top: "0", color: "rgb(100, 100, 100)" }}
     >
       <Navbar.Brand href="/">
         <img
@@ -33,7 +34,19 @@ function NavBar() {
           </Nav.Item>
           <Nav.Item>
             {" "}
-            <Nav.Link href="/lienhe">LIÊN HỆ</Nav.Link>
+            <Nav.Link>
+              <Link
+                to="contact-footer"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {" "}
+                LIÊN HỆ
+              </Link>
+            </Nav.Link>
+            {/* <Nav.Link href="/lienhe"</Nav.Link> */}
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
