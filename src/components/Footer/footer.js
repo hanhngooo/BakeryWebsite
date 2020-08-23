@@ -54,6 +54,7 @@ function Footer() {
                   className="footer__contact--icon"
                   href="https://www.facebook.com/profile.php?id=100008428893615"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <GrFacebook />
                 </a>
