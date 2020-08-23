@@ -1,6 +1,7 @@
 .products__noteWrap {
   margin-top: 20px;
   color: rgb(100, 100, 100);
+  line-height: 1.6rem;
 }
 .products__note {
   display: flex;

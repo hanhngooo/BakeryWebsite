@@ -44,6 +44,7 @@
   font-weight: 500;
   color: rgb(100, 100, 100);
   text-align: justify;
+  line-height: 1.6rem;
 }
 .description:first-letter {
   padding-left: 30px;
