@@ -1,5 +1,6 @@
 .products__noteWrap {
   margin-top: 20px;
+  color: rgb(100, 100, 100);
 }
 .products__note {
   display: flex;
@@ -17,6 +18,7 @@
   margin: 0;
   padding: 3px;
 }
+
 @media (max-width: 800px) {
   .products__noteWrap {
     font-size: 14px;

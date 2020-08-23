@@ -52,9 +52,8 @@ function ProductsPage() {
               </div>
             </div>
             <div className="products__noteItem--core">
-              Nhân tự chọn: thập cẩm, đậu xanh, đậu xanh lá dứa, đậu xanh hạt
-              dưa, trà xanh, đậu đỏ táo đỏ, đậu đen mè đen, hạt sen, sữa dừa,
-              khoai môn
+              Nhân tự chọn: đậu xanh, đậu xanh lá dứa, trà xanh, đậu đỏ táo đỏ,
+              đậu đen mè đen
             </div>
           </div>
         </div>

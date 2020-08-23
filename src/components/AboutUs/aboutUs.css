@@ -41,7 +41,7 @@
 }
 .description {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   color: rgb(100, 100, 100);
   text-align: justify;
 }
@@ -50,14 +50,13 @@
 }
 
 @media (max-width: 1440px) {
-  .aboutUs__left img {
-    width: 450px;
-    height: 40vh;
+  .description {
+    font-size: 16px;
   }
 }
 @media (max-width: 1140px) {
   .description {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (max-width: 800px) {
@@ -122,6 +121,6 @@
   }
 
   .description {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
