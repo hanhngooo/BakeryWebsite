@@ -60,6 +60,10 @@
   margin-top: 20px;
   bottom: 5px;
 }
+.footer__contact--item--phone .footer__contact--paragraph .phone__link {
+  /* text-decoration: none; */
+  color: rgb(233, 233, 233);
+}
 
 @media (max-width: 1024px) {
   .footer__header--logo img {

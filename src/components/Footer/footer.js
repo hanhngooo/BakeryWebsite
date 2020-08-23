@@ -31,13 +31,19 @@ function Footer() {
                     <span className="footer__contact--phoneicon">
                       <FaPhoneAlt />{" "}
                     </span>{" "}
-                    0778770284 (Ms. Trang){" "}
+                    <a className="phone__link" href="tel:0778770284">
+                      0778770284
+                    </a>{" "}
+                    (Ms. Trang)
                   </p>
                   <p className="footer__contact--paragraph">
                     <span className="footer__contact--phoneicon">
                       <FaPhoneAlt />{" "}
                     </span>{" "}
-                    0907169569 (Ms. Trân){" "}
+                    <a className="phone__link" href="tel:0907169569">
+                      0907169569
+                    </a>{" "}
+                    (Ms. Trân)
                   </p>
 
                   <p className="footer__contact--paragraph">
@@ -46,7 +52,6 @@ function Footer() {
                     </span>{" "}
                     Giao bánh khu vực TP. HCM
                   </p>
-                  {/* <div className="footer__contact--number"></div> */}
                 </div>
               </div>
               <div className="footer__contact--item">

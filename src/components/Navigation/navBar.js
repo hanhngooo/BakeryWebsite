@@ -50,11 +50,18 @@ function NavBar() {
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
-      <div className="nav__contact">
+
+      <div className="nav__contact" style={{ color: "rgb(100, 100, 100" }}>
         <span className="footer__contact--phoneicon">
           <FaPhoneAlt />{" "}
         </span>{" "}
-        0778770284 - 0907169569
+        <a href="tel:0778770284" style={{ color: "rgb(100, 100, 100" }}>
+          0778770284
+        </a>{" "}
+        -{" "}
+        <a href="tel:0907169569" style={{ color: "rgb(100, 100, 100" }}>
+          0907169569
+        </a>
       </div>
     </Navbar>
   );
