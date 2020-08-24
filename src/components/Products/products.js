@@ -1,7 +1,6 @@
 import React from "react";
 import "./products.css";
 import { Parallax } from "react-parallax";
-import { a } from "react-router-dom";
 import ProductCard from "./productCard";
 import productContents from "./productContents.js";
 

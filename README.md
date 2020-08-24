@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :full_moon: :cake: BEP BANH LEKKER - BAKERY STORE :cake: :full_moon:
 
-## Available Scripts
+This project is built for my friend's family bakery store, my very first client :fire:. At the moment, the MVP website is used as a landing page for information about products and prices. This is a work in progress since the owner wants to expand it into an e-commerce website in near future.
 
-In the project directory, you can run:
+In this project, I aim to pratice:
 
-### `npm start`
+- Practice styling with flex box and responsive CSS
+- Practice disciplined git usage with proper commits
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :computer: App Demo
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Click HERE to check out the deployed website](https://bepbanhlekker.com/). </br>
 
-### `npm test`
+![Demo](https://media.giphy.com/media/MaJ2sVoyTsCwguftqy/giphy.gif)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :clipboard: Technology Used
 
-### `npm run build`
+This project focuses on [CSS3](https://github.com/hanhngooo/BakeryWebsite/blob/master/src/components/Products/productCard.css) practice with flex box and responsive design.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :man: User stories :girl:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- As a user, I want to see a home page that:
+  - Include a header with logo
+  - An About Us section to introduce the store
+  - A slide show to display cakes products
+  - A product section
+  - A Footer that show our contact detail
+- As a user, I want to see a seperate page that consists all the product's information
+  - A Information section about flavors and prices
+  - A list of products of images
+  - Pop up Image when clicking on an image
