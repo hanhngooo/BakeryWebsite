@@ -11,7 +11,7 @@ In this project, I aim to pratice:
 
 [Click HERE to check out the deployed website](https://bepbanhlekker.com/). </br>
 
-![Demo](https://media.giphy.com/media/MaJ2sVoyTsCwguftqy/giphy.gif)
+![Demo](./src/assets/demo.gif)
 
 ## :clipboard: Technology Used
 
